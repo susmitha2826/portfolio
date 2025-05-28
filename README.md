@@ -14,11 +14,12 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 ## Project Structure
 
-├── index.html # Main webpage
-├── style.css # Styling of the website
-├── script.js # JavaScript functionality
-├── package.json # Project metadata (optional)
-└── README.md # This file
+- `index.html` — Main webpage  
+- `style.css` — Styling of the website  
+- `script.js` — JavaScript functionality  
+- `package.json` — Project metadata (optional)  
+- `README.md` — This file
+
 
 ## Features
 
