@@ -44,6 +44,7 @@ GitHub: github.com/susmitha2826
 
 LinkedIn: linkedin.com/in/susmitha-gopireddy-471091237/
 
+##
 Thank you for visiting my portfolio!
 
 If you want, I can help you customize the contact details or add more sections like **Technologies**, **How to contribute**, or **License**. Let me know!
