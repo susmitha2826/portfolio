@@ -38,10 +38,20 @@ document.querySelectorAll('.animate-on-scroll').forEach(el => {
 
 // Form submission
 function handleSubmit(event) {
-    event.preventDefault();
-    alert('Thank you for your message! I\'ll get back to you soon.');
-    event.target.reset();
+  event.preventDefault();
+console.log("Sending form:", event.target);
+
+  emailjs.sendForm('service_mebhp5b', 'template_sx7xttj', event.target)
+    .then(() => {
+      toastr.success("Thank you for your message! I'll get back to you soon.");
+      event.target.reset();
+    })
+    .catch((error) => {
+      toastr.error("Sending failed. Check console.");
+      console.error("EmailJS error details:", error);
+    });
 }
+
 
 // Create floating particles
 function createParticle() {

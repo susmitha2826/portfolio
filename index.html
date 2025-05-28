@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Susmitha Gopireddy - Software Developer</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init('WLm_1LgouHpYGJyXt'); // Replace with your EmailJS user ID here
+        })();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
 </head>
+
 <body>
     <!-- Navigation -->
     <nav id="navbar">
@@ -25,7 +37,7 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Susmitha Gopireddy</h1>
-            <p>Full Stack Software Developer specializing in React, Node.js, and AWS Services</p>
+            <p>Full Stack Software Developer specializing in React, Node.js, NestJs and AWS Services</p>
             <a href="#contact" class="cta-button">Let's Connect</a>
         </div>
     </section>
@@ -36,9 +48,14 @@
         <div class="about-content">
             <div class="about-image">👩‍💻</div>
             <div class="about-text">
-                <p>I'm a highly motivated and results-driven Software Developer with expertise in ReactJs, NodeJs, and AWS Services. Currently working as a Junior Software Developer at E-rad Imaging and Reporting Services in Hyderabad, I'm passionate about developing scalable backend systems and collaborating with cross-functional teams to deliver impactful features.</p>
+                <p>I'm a highly motivated and results-driven Software Developer with expertise in ReactJs, NodeJs, and
+                    AWS Services. Currently working as a Junior Software Developer at E-rad Imaging and Reporting
+                    Services in Hyderabad, I'm passionate about developing scalable backend systems and collaborating
+                    with cross-functional teams to deliver impactful features.</p>
                 <br>
-                <p>With a B-Tech in Computer Science and Engineering from Visvodaya Engineering College (CGPA: 8.02), I bring strong problem-solving skills and a focus on delivering reliable, maintainable solutions. I thrive in Agile environments and am always eager to take on new challenges.</p>
+                <p>With a B-Tech in Computer Science and Engineering from Visvodaya Engineering College (CGPA: 8.02), I
+                    bring strong problem-solving skills and a focus on delivering reliable, maintainable solutions. I
+                    thrive in Agile environments and am always eager to take on new challenges.</p>
             </div>
         </div>
     </section>
@@ -59,8 +76,9 @@
             <div class="skill-card">
                 <h3>Backend Technologies</h3>
                 <ul class="skill-list">
-                    <li>Node.js</li>
-                    <li>Express.js</li>
+                    <li>NodeJS</li>
+                    <li>NestJS</li>
+                    <li>ExpressJS</li>
                     <li>RESTful APIs</li>
                     <li>Jenkins CI/CD</li>
                 </ul>
@@ -69,7 +87,6 @@
                 <h3>Databases & Cloud</h3>
                 <ul class="skill-list">
                     <li>MongoDB</li>
-                    <li>MySQL</li>
                     <li>AWS S3</li>
                     <li>AWS Lambda</li>
                 </ul>
@@ -92,7 +109,8 @@
         <div class="projects-grid">
             <div class="project-card">
                 <h3>Workflow Management System</h3>
-                <p>Developed and maintained backend microservices handling over 1,000 monthly users with 99.9% uptime. Designed optimized RESTful APIs for efficient data interaction with AWS S3.</p>
+                <p>Developed and maintained backend microservices handling over 1,000 monthly users with 99.9% uptime.
+                    Designed optimized RESTful APIs for efficient data interaction with AWS S3.</p>
                 <div class="project-tech">
                     <span class="tech-tag">Node.js</span>
                     <span class="tech-tag">HTML/CSS</span>
@@ -102,18 +120,20 @@
             </div>
             <div class="project-card">
                 <h3>AI-Powered Transcription Service</h3>
-                <p>Implemented backend services using NodeJs and Express. Developed REST APIs for secure data handling from AWS S3 and optimized serverless processing using AWS Lambda.</p>
+                <p>Implemented backend services using NodeJs and Express. Developed REST APIs for secure data handling
+                    from AWS S3 and optimized serverless processing using AWS Lambda.</p>
                 <div class="project-tech">
                     <span class="tech-tag">Python</span>
-                    <span class="tech-tag">Node.js</span>
-                    <span class="tech-tag">MySQL</span>
+                    <span class="tech-tag">NestJS</span>
+                    <span class="tech-tag">MongoDB</span>
                     <span class="tech-tag">AWS Lambda</span>
                     <span class="tech-tag">OpenAI</span>
                 </div>
             </div>
             <div class="project-card">
                 <h3>Secure User Management Portal</h3>
-                <p>Implemented Jenkins CI/CD pipelines reducing manual errors by 30%. Built React-based admin dashboard with real-time analytics and secured APIs with role-based access control.</p>
+                <p>Implemented Jenkins CI/CD pipelines reducing manual errors by 30%. Built React-based admin dashboard
+                    with real-time analytics and secured APIs with role-based access control.</p>
                 <div class="project-tech">
                     <span class="tech-tag">React</span>
                     <span class="tech-tag">Express.js</span>
@@ -131,7 +151,8 @@
         <div class="contact-content">
             <div class="contact-info">
                 <h3>Let's Connect!</h3>
-                <p>I'm always interested in new opportunities and collaborations. Whether you have a project in mind or just want to chat about technology, feel free to reach out.</p>
+                <p>I'm always interested in new opportunities and collaborations. Whether you have a project in mind or
+                    just want to chat about technology, feel free to reach out.</p>
                 <br>
                 <p>📧 gsusmitha26@gmail.com</p>
                 <p>📱 +91 9573572307</p>
@@ -142,16 +163,17 @@
             </div>
             <form class="contact-form" onsubmit="handleSubmit(event)">
                 <div class="form-group">
-                    <input type="text" placeholder="Your Name" required>
+                    <input type="text" name="name" placeholder="Your Name" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" placeholder="Your Email" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
                 </div>
                 <div class="form-group">
-                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
                 </div>
                 <button type="submit" class="submit-btn">Send Message</button>
             </form>
+
         </div>
     </section>
 
@@ -162,4 +184,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
