@@ -14,12 +14,12 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 ## Project Structure
 
-.
-├── index.html # Main webpage
-├── style.css # Styling of the website
-├── script.js # JavaScript functionality
-├── package.json # Project metadata (optional)
-└── README.md # This file
+- `index.html` — Main webpage  
+- `style.css` — Styling of the website  
+- `script.js` — JavaScript functionality  
+- `package.json` — Project metadata (optional)  
+- `README.md` — This file
+
 
 ## Features
 
@@ -36,8 +36,8 @@ To run this project locally:
 git clone https://github.com/susmitha2826/portfolio.git
 cd portfolio
 # Open index.html in your browser or use a live server extension
-
-Contact
+```
+## Contact
 
 Email: gsusmitha26@gmail.com
 
@@ -45,6 +45,7 @@ GitHub: github.com/susmitha2826
 
 LinkedIn: linkedin.com/in/susmitha-gopireddy-471091237/
 
+##
 Thank you for visiting my portfolio!
 
 If you want, I can help you customize the contact details or add more sections like **Technologies**, **How to contribute**, or **License**. Let me know!
