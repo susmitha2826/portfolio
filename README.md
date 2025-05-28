@@ -36,7 +36,7 @@ git clone https://github.com/susmitha2826/portfolio.git
 cd portfolio
 # Open index.html in your browser or use a live server extension
 ```
-Contact
+## Contact
 
 Email: gsusmitha26@gmail.com
 
