@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
     <!-- EmailJS SDK -->
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script>
         (function () {
             emailjs.init('WLm_1LgouHpYGJyXt'); // Replace with your EmailJS user ID here
@@ -161,17 +162,20 @@
                 <p>🎯 Open to relocation</p>
                 <p>🏀 Interests: Basketball, Dancing, Music</p>
             </div>
-            <form class="contact-form" onsubmit="handleSubmit(event)">
+            <form id="form-message" class="contact-form">
                 <div class="form-group">
-                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="title" id="title" placeholder="Subject">
                 </div>
                 <div class="form-group">
-                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
                 </div>
                 <div class="form-group">
-                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
                 </div>
-                <button type="submit" class="submit-btn">Send Message</button>
+                <div class="form-group">
+                    <textarea name="message" rows="5"  id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <input type="submit" id="button" class="submit-btn"></input>
             </form>
 
         </div>
