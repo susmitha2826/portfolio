@@ -14,7 +14,6 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 
 ## Project Structure
 
-.
 ├── index.html # Main webpage
 ├── style.css # Styling of the website
 ├── script.js # JavaScript functionality
@@ -36,7 +35,7 @@ To run this project locally:
 git clone https://github.com/susmitha2826/portfolio.git
 cd portfolio
 # Open index.html in your browser or use a live server extension
-
+```
 Contact
 
 Email: gsusmitha26@gmail.com
