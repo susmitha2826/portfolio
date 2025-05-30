@@ -11,7 +11,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - HTML5  
 - CSS3  
 - JavaScript
-
+```
 ## Project Structure
 .
 ├── index.html       # Main webpage
@@ -19,7 +19,7 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 ├── script.js        # JavaScript functionality
 ├── package.json     # Project metadata (optional)
 └── README.md        # This file
-
+```
 
 
 ## Features
