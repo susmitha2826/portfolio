@@ -12,16 +12,6 @@ This is my personal portfolio website showcasing my skills, projects, and experi
 - CSS3  
 - JavaScript
 
-## Project Structure
-```
-├── index.html       # Main webpage
-├── style.css        # Styling of the website
-├── script.js        # JavaScript functionality
-├── package.json     # Project metadata (optional)
-└── README.md        # This file
-```
-
-
 ## Features
 
 - Responsive design for desktop and mobile  
